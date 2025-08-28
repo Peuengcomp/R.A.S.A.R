@@ -1,0 +1,11 @@
+Fitter Status : Successful - Fri Sep 20 20:29:19 2024
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+Revision Name : PBL1_CD
+Top-level Entity Name : roboJEP
+Family : MAX II
+Device : EPM240T100C5
+Timing Models : Final
+Total logic elements : 7 / 240 ( 3 % )
+Total pins : 12 / 80 ( 15 % )
+Total virtual pins : 0
+UFM blocks : 0 / 1 ( 0 % )

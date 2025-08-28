@@ -1,0 +1,30 @@
+|roboJEP
+CH => VerificarEsquerda.IN1
+CH => VerificarFrente.IN0
+CH => VerificarDireita.IN1
+CH => BateriaFracaR.IN0
+CH => BateriaFracaG.IN0
+BF => BateriaFracaR.IN1
+BF => BateriaFracaG.IN1
+BF => VerificarEsquerda.IN2
+BF => VerificarFrente.IN1
+BF => VerificarDireita.IN2
+SF => SE_SD_SE.IN0
+SF => SF_SD_ST.IN0
+SF => SF_SD.IN0
+SF => SF_SE.IN0
+SF => VerificarFrente.IN2
+SD => SE_SD_SE.IN1
+SD => SF_SD_ST.IN1
+SD => SF_SD.IN1
+SE => SF_SE.IN1
+SE => SE_SD_SE.IN2
+ST => SF_SD_ST.IN2
+CE <= VerificarParadaESQ_LED.DB_MAX_OUTPUT_PORT_TYPE
+CD <= VerificarParadaDIR_LED.DB_MAX_OUTPUT_PORT_TYPE
+LedR <= AcenderVermelho.DB_MAX_OUTPUT_PORT_TYPE
+LedG <= BateriaFracaG.DB_MAX_OUTPUT_PORT_TYPE
+RE <= VerificarParadaDIR_RODA.DB_MAX_OUTPUT_PORT_TYPE
+RD <= VerificarParadaESQ_RODA.DB_MAX_OUTPUT_PORT_TYPE
+
+
